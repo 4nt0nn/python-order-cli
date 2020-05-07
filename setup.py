@@ -10,7 +10,7 @@ setup(name='order-runner',
       license='MIT',
       long_description=open('README.md').read(),
       packages=find_namespace_packages(),
-      install_requires=['argparser', 'pandas', 'numpy'],
+      install_requires=['argparse', 'pandas', 'numpy'],
           entry_points={
           "console_scripts": [
               "orderrunner = orderrunner.__main__:main",
