@@ -1,5 +1,4 @@
 import sys
-import csv
 import argparse
 import orderrunner.funcmodule as fm
 

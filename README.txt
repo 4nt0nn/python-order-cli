@@ -5,7 +5,7 @@ Python CLI application for parsing order files.
 # Installation
 
 In order to install the CLI application you need have
-pip3 installed on your machine.
+pip3 and setuptools installed on your machine.
 After this has been installed, navigate to the
 root directory of this application
 using your command prompt or terminal and enter
