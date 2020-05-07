@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_namespace_packages
 
 
 setup(name='order-runner',
@@ -9,7 +9,7 @@ setup(name='order-runner',
       description="A command-line utility for parsing order files.",
       license='MIT',
       long_description=open('README.md').read(),
-      packages=['orderruner'],
+      packages=find_namespace_packages(),
       install_requires=['argparser', 'pandas', 'numpy'],
           entry_points={
           "console_scripts": [
